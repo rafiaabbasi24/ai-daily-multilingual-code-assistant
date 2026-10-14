@@ -1,0 +1,19 @@
+# Multilingual Code Assistant with Retrieval‑Augmented Generation
+# Core deep‑learning stack
+torch==2.2.0                # PyTorch backend
+transformers==4.40.0        # Hugging Face Transformers library
+faiss-cpu==1.8.0.post1      # CPU‑only FAISS for vector similarity search
+click==8.1.7                # Command‑line interface utilities
+
+# Data handling & utilities
+numpy==1.26.4               # Numerical operations
+tqdm==4.66.2                # Progress bars
+sentencepiece==0.2.0       # Tokenizer support for multilingual models
+
+# Multilingual embeddings (used for retrieval augmentation)
+sentence-transformers==2.2.2  # Pre‑trained multilingual sentence encoders
+
+# Optional: accelerate training/inference (uncomment if needed)
+# accelerate==0.30.1
+
+# End of requirements.txt
